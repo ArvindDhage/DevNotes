@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- Primary brand colar.-->
+    <style name="Base.Theme.DevNotes" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/my_primary</item>
+        <item name="colorPrimaryVariant">@color/my_primary</item>
+        <item name="colorOnPrimary">@color/my_primary</item>
+        <!-- Secondary Brand color.-->
+        <item name="colorSecondary">@color/my_second</item>
+        <item name="colorSecondaryVariant">@color/my_second</item>
+        <item name="colorOnSecondary">@color/my_second</item>
+        <!-- status bar color.-->
+        <item name="android:statusBarColor">@color/my_primary</item>
+    </style>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Theme.DevNotes" parent="Base.Theme.DevNotes" />
+</resources>

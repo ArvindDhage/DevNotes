@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEEE3"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:src="@drawable/logo2">
+
+        </ImageView>
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:cardCornerRadius="28dp"
+        android:layout_marginBottom="-28dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome"
+                android:textColor="@color/black"
+                android:textSize="32sp"
+                android:textStyle="bold">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an Account?"
+                android:alpha="0.7">
+
+            </TextView>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="30dp">
+
+            </View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.7"
+                android:text="Email Address"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                android:inputType="textEmailAddress"
+                android:drawableEnd="@drawable/done_icon">
+
+            </EditText>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp">
+
+            </View>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:alpha="0.7"
+                android:textStyle="bold">
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:id="@+id/pass"
+                android:drawableEnd="@drawable/ic_eye">
+
+            </EditText>
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+               <CheckBox
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Remember me"
+                   android:layout_centerVertical="true"
+                   android:alpha="0.7">
+
+               </CheckBox>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Forgot Password"
+                  android:layout_alignParentEnd="true"
+                  android:layout_centerVertical="true">
+
+              </TextView>
+          </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp">
+
+            </View>
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/progressbar">
+
+            </ProgressBar>
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Login"
+                android:id="@+id/login"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:cornerRadius="32dp">
+
+            </com.google.android.material.button.MaterialButton>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp">
+
+            </View>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New User? Register Now "
+                android:id="@+id/registerText"
+                android:textSize="20dp"
+                android:textColor="#AF4C0F"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:alpha="0.7">
+
+            </TextView>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp">
+
+            </View>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/darker_gray"
+                        android:layout_marginEnd="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Use Other Methods"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/darker_gray"
+                        android:layout_marginStart="8dp" />
+                </LinearLayout>
+
+                <!-- Google icon just below "Use Other Methods" -->
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp">
+
+            </View>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/google" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp">
+
+            </View>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

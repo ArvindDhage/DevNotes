@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "804399172519",
+    "firebase_url": "https://devnotes-8fd82-default-rtdb.firebaseio.com",
+    "project_id": "devnotes-8fd82",
+    "storage_bucket": "devnotes-8fd82.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804399172519:android:cdc88184e6e4decf884482",
+        "android_client_info": {
+          "package_name": "com.cscorner.devnotes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6GZWYH53yPgKhm7lG5ucO4FOmeTqQW3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
